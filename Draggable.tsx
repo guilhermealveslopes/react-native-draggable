@@ -57,6 +57,8 @@ interface IProps {
   };
 
 export default function Draggable(props: IProps) {
+  console.log('Draggable');
+  
   const {
     renderText,
     isCircle,
